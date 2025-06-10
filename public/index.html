@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Todo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Projects</h2>
+            <div id="project-list">
+                </div>
+            <button id="add-project-btn" class="add-btn">+ Add Project</button>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1 id="current-project-title"></h1>
+                <button id="add-todo-btn" class="add-btn">+ Add Todo</button>
+            </header>
+
+            <section class="todo-list-section">
+                <h2>Todos</h2>
+                <div id="todo-list">
+                    </div>
+            </section>
+
+            <section class="todo-details-section">
+                <h2>Todo Details</h2>
+                <div id="todo-details-view">
+                    <p class="no-details">Select a todo to view details.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title"></h2>
+            <form id="modal-form">
+                </form>
+        </div>
+    </div>
+
+    <script src="./main.js"></script> </body>
+</html>
