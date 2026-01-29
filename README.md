@@ -136,3 +136,15 @@ However, Kubernetes is used here to demonstrate:
 
 **Yvette Christine**  
 DevOps / Cloud Engineering Portfolio Project
+
+## Deployment Evidence
+
+### Kubernetes Pods Running
+![Pods Running](screenshots/k8s-pods-running.png)
+
+### Kubernetes Service Exposed
+![Service Exposed](screenshots/k8s-service-exposed.png)
+
+### Application Running in Browser
+![App Running](screenshots/k8s-app-running.png)
+
